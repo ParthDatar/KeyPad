@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/parth/Downloads/Sophomore Year/Keyp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp  -Wall -Wextra -pedantic -pedantic-errors -g -std=c++17 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\parth\\Downloads\\Sophomore Year\\Keyp\\src\\main.cpp\"",
+  "file": "C:/Users/parth/Downloads/Sophomore Year/Keyp/src/main.cpp"
+},
+{
+  "directory": "C:/Users/parth/Downloads/Sophomore Year/Keyp/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp  -Wall -Wextra -pedantic -pedantic-errors -g -std=c++17 -o CMakeFiles\\main.dir\\src\\keypad.cpp.obj -c \"C:\\Users\\parth\\Downloads\\Sophomore Year\\Keyp\\src\\keypad.cpp\"",
+  "file": "C:/Users/parth/Downloads/Sophomore Year/Keyp/src/keypad.cpp"
+}
+]

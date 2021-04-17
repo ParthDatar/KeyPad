@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/keypad.h
+string
+-
+
+C:/Users/parth/Downloads/Sophomore Year/Keyp/src/keypad.cpp
+keypad.h
+C:/Users/parth/Downloads/Sophomore Year/Keyp/src/keypad.h
+random
+-
+algorithm
+-
+fstream
+-
+iostream
+-
+
+C:/Users/parth/Downloads/Sophomore Year/Keyp/src/main.cpp
+iostream
+-
+keypad.h
+C:/Users/parth/Downloads/Sophomore Year/Keyp/src/keypad.h
+
