@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <fstream>
 #include <iostream>
+#include <time.h>
 
 Keypad::Keypad(int size, int start, int end){
     this->size = size;
@@ -10,15 +11,27 @@ Keypad::Keypad(int size, int start, int end){
     
     std::default_random_engine gen;
     std::uniform_int_distribution<int> dis(start,end);
+    srand(time(NULL));
+    uint64_t mSeed = rand();
+    gen.seed(mSeed);
 
     for(int i = 0; i < size; i++){
         pad[i] = dis(gen);
     }
 }
 
-// int* Keypad::getKeypad(){
-//     return pad;
-// }
+Keypad::Keypad(const Keypad& k){
+    pad = new int[k.size];
+    size = k.size;
+    for(int i = 0; i < size; i++){
+        pad[i] = k.pad[i];
+    }
+}
+
+
+Keypad::~Keypad(){
+    delete [] pad;
+}
 
 void Keypad::printPad(){
     int counter = 0;
@@ -48,10 +61,14 @@ std::string Keypad::decrypt(std::string cipher){
 }
 
 void Keypad::toFile(std::string filename){
-    std::ofstream outFile(filename);
+    std::ofstream outFile("../outputFiles/" + filename);
+    if(!outFile.is_open()){
+        return;
+    }
+
     for(int i = 0; i < size; i++){
         outFile << pad[i] << " ";
-        if(i % 10 == 0){
+        if(i >= 10 && i % 10 == 0){
             outFile << std::endl;
         }
     }

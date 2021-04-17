@@ -3,7 +3,8 @@
 class Keypad{
     public:
         Keypad(int size, int start, int end);
-        // int* getKeypad();
+        Keypad(const Keypad& k);
+        ~Keypad();
         void printPad();
         std::string encrypt(std::string message);
         std::string decrypt(std::string cipher);

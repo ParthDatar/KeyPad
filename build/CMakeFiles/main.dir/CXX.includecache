@@ -10,19 +10,9 @@
 string
 -
 
-C:/Users/parth/Downloads/Sophomore Year/Keyp/src/keypad.cpp
-keypad.h
-C:/Users/parth/Downloads/Sophomore Year/Keyp/src/keypad.h
-random
--
-algorithm
--
-fstream
--
-iostream
--
-
 C:/Users/parth/Downloads/Sophomore Year/Keyp/src/main.cpp
+gtkmm-3.0/gtkmm.h
+-
 iostream
 -
 keypad.h
