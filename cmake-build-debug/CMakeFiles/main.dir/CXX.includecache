@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/parth/Downloads/Sophomore Year/Keyp/keypad.hpp
+string
+-
+
+C:/Users/parth/Downloads/Sophomore Year/Keyp/main.cpp
+iostream
+-
+keypad.hpp
+C:/Users/parth/Downloads/Sophomore Year/Keyp/keypad.hpp
+

@@ -1,6 +1,4 @@
 #include <iostream>
-#include <random>
-#include <algorithm>
 #include "keypad.hpp"
 
 bool execute(Keypad k){
@@ -9,8 +7,7 @@ bool execute(Keypad k){
     std::cin >> message;
     
     std::string cip = k.encrypt(message);
-    std::cout << cip;
-    std::cout << std::endl;
+    std::cout << cip << std::endl;
 
     return (message == "stop");
 }

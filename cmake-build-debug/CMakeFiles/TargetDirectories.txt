@@ -1,0 +1,3 @@
+C:/Users/parth/Downloads/Sophomore Year/Keyp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/parth/Downloads/Sophomore Year/Keyp/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/parth/Downloads/Sophomore Year/Keyp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
